@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Syne:wght@700;800&display=swap');
+
+:root {
+  --deep: 0.12 0.02 240;
+  --deep-2: 0.14 0.02 240;
+  --teal: 0.70 0.15 180;
+  --teal-light: 0.80 0.12 180;
+  --amber: 0.75 0.15 60;
+}
+
+@theme {
+  --color-deep: oklch(var(--deep));
+  --color-deep-2: oklch(var(--deep-2));
+  --color-teal: oklch(var(--teal));
+  --color-teal-light: oklch(var(--teal-light));
+  --color-amber: oklch(var(--amber));
+
+  --font-sans: "Inter", "system-ui", "sans-serif";
+  --font-display: "Syne", "Inter", "sans-serif";
+
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-bounce-slow: bounce 3s infinite;
+  --animate-fade-in-up: fadeInUp 0.7s ease-out forwards;
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+@utility glass-card {
+  background-color: oklch(1 0 0 / 0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid oklch(1 0 0 / 0.1);
+  border-radius: 1rem;
+}
+
+@utility text-gradient {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, oklch(var(--teal)), oklch(var(--teal-light)), oklch(var(--amber)));
+}
+
+body {
+  @apply bg-deep text-white selection:bg-teal/30 selection:text-teal-light font-sans;
+}

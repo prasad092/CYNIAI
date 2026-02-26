@@ -1,0 +1,14 @@
+{
+  "frontend/src/App.tsx": "Root application component that assembles all page sections (Navbar, Hero, Services, Portfolio, Pricing, Testimonials, Contact, Footer) with section IDs for smooth scroll navigation.",
+  "frontend/src/hooks/useScrollAnimation.ts": "Custom React hook using IntersectionObserver to detect when elements enter the viewport and return visibility state for triggering CSS entrance animations.",
+  "frontend/src/components/Navbar.tsx": "Sticky top navigation bar with logo, desktop smooth-scroll links, a \"Get a Quote\" CTA, scroll-aware background blur, and a hamburger icon visible on all screen sizes that opens a fullscreen animated overlay menu with large navigation links (Services, Portfolio, Pricing, Testimonials, Contact), ambient orb decorations, staggered entrance animations, and a close transition.",
+  "frontend/src/components/Hero.tsx": "Full-viewport hero section with animated rotating word headline, tagline, dual CTA buttons (Get Started / Watch Showreel), cinematic background image with overlays, ambient orbs, and key stats.",
+  "frontend/src/components/Services.tsx": "Services section displaying 6 AI video agency offerings in a responsive 3-column grid with glassmorphism cards, icons, scroll-triggered staggered animations, and hover lift effects.",
+  "frontend/src/components/Portfolio.tsx": "Portfolio/showreel section featuring a YouTube embed with project metadata and a 4-item project thumbnail grid with hover overlay revealing title, category, and client info.",
+  "frontend/src/components/Pricing.tsx": "Pricing section with 3 tier cards (Starter, Pro, Enterprise), a monthly/annual billing toggle with 20% savings, feature checklists, and a highlighted recommended Pro plan.",
+  "frontend/src/components/Testimonials.tsx": "Testimonials section with 6 client review cards in a responsive grid, each showing star rating, quote, avatar initials, name, role, and company with scroll-triggered animations.",
+  "frontend/src/components/Contact.tsx": "Contact section with a validated form (Name, Email, Company, Service dropdown, Message), success state on submission, and a sidebar with contact info and availability status.",
+  "frontend/src/components/Footer.tsx": "Footer with agency logo/branding, navigation links, service links, social media icons (YouTube, LinkedIn, Instagram, X), copyright with dynamic year, and caffeine.ai attribution.",
+  "frontend/src/index.css": "Global CSS with OKLCH dark cinematic color system, Google Fonts (Inter + Syne), glassmorphism utility classes, text-gradient utility, and custom animation keyframes.",
+  "frontend/tailwind.config.js": "Extended Tailwind config with custom deep/teal/amber color tokens, Inter/Syne font families, glow box-shadows, and fade-in-up animation keyframes for the cinematic dark theme."
+}

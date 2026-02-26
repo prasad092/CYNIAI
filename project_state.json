@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Building a full frontend clone inspired by Synima's AI Video Agency website. Includes all sections: hero, services, portfolio/showreel, pricing, testimonials, contact form, with animations and interactivity using placeholder branding and demo content.",
+  "architectural_notes": [
+    "Frontend-only project (no backend), using placeholder branding and demo content",
+    "Inspired by Synima AI Video Agency website design and layout"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-hero-section-with-a-bold-animated-headline-typewriter-or-fade-in-effect-a-short-tagline-about-ai-powered-video-production-a-primary-cta-button-get-started-watch-showreel-and-a-full-bleed-cinematic-background-dark-overlay-with-abstract-motion-or-video-style-visual",
+      "title": "Create a Hero section with a bold animated headline (typewriter or fade-in effect), a short tagline about AI-powered video production, a primary CTA button ('Get Started' / 'Watch Showreel'), and a full-bleed cinematic background (dark overlay with abstract motion or video-style visual).",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-services-section-that-showcases-ai-video-agency-offerings-with-icon-cards-or-feature-tiles-include-at-least-6-services-such-as-ai-video-production-script-writing-motion-graphics-brand-films-social-content-and-post-production-each-card-should-have-an-icon-title-and-short-description",
+      "title": "Create a Services section that showcases AI video agency offerings with icon cards or feature tiles. Include at least 6 services such as: AI Video Production, Script Writing, Motion Graphics, Brand Films, Social Content, and Post-Production. Each card should have an icon, title, and short description.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-portfolio-showreel-section-with-a-featured-video-embed-use-a-youtube-embed-as-placeholder-e-g-a-generic-showreel-url-and-a-grid-of-4-6-project-thumbnails-below-it-each-thumbnail-should-display-a-project-title-and-category-tag-on-hover",
+      "title": "Create a Portfolio / Showreel section with a featured video embed (use a YouTube embed as placeholder, e.g. a generic showreel URL) and a grid of 4–6 project thumbnails below it. Each thumbnail should display a project title and category tag on hover.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-pricing-section-with-3-pricing-tiers-starter-pro-enterprise-displayed-as-cards-include-a-monthly-annual-billing-toggle-that-updates-displayed-prices-each-card-should-list-features-with-checkmarks-highlight-the-recommended-plan-and-include-a-cta-button",
+      "title": "Create a Pricing section with 3 pricing tiers (Starter, Pro, Enterprise) displayed as cards. Include a monthly/annual billing toggle that updates displayed prices. Each card should list features with checkmarks, highlight the recommended plan, and include a CTA button.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-testimonials-section-displaying-4-6-client-reviews-as-cards-or-a-carousel-each-testimonial-should-include-a-client-avatar-placeholder-image-or-initials-name-company-star-rating-and-review-text",
+      "title": "Create a Testimonials section displaying 4–6 client reviews as cards or a carousel. Each testimonial should include a client avatar (placeholder image or initials), name, company, star rating, and review text.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-section-with-a-styled-form-containing-fields-for-name-email-company-service-interest-dropdown-and-message-include-a-submit-button-and-a-brief-intro-text-add-a-secondary-column-or-row-with-contact-info-email-phone-location-placeholder-values",
+      "title": "Create a Contact section with a styled form containing fields for Name, Email, Company, Service Interest (dropdown), and Message. Include a Submit button and a brief intro text. Add a secondary column or row with contact info (email, phone, location — placeholder values).",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-sticky-top-navigation-bar-with-the-agency-logo-name-links-to-all-sections-smooth-scroll-and-a-get-a-quote-cta-button-on-mobile-collapse-into-a-hamburger-menu",
+      "title": "Add a sticky top navigation bar with the agency logo/name, links to all sections (smooth scroll), and a 'Get a Quote' CTA button. On mobile, collapse into a hamburger menu.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-footer-with-the-agency-name-logo-navigation-links-social-media-icon-links-placeholder-a-short-tagline-and-a-copyright-line",
+      "title": "Add a Footer with the agency name/logo, navigation links, social media icon links (placeholder), a short tagline, and a copyright line.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-smooth-scroll-triggered-entrance-animations-throughout-the-page-fade-in-up-on-section-headings-staggered-card-reveals-etc-using-css-transitions-or-a-lightweight-animation-approach-add-subtle-hover-micro-interactions-on-buttons-and-cards",
+      "title": "Implement smooth scroll-triggered entrance animations throughout the page (fade-in-up on section headings, staggered card reveals, etc.) using CSS transitions or a lightweight animation approach. Add subtle hover micro-interactions on buttons and cards.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-cinematic-premium-dark-theme-visual-design-with-a-deep-charcoal-near-black-background-vivid-accent-colors-e-g-electric-teal-or-amber-orange-gradient-sleek-sans-serif-typography-and-high-contrast-white-text-enforce-this-theme-consistently-across-all-sections-using-glassmorphism-or-subtle-glow-effects-for-cards-where-appropriate",
+      "title": "Apply a cinematic, premium dark-theme visual design with a deep charcoal/near-black background, vivid accent colors (e.g. electric teal or amber-orange gradient), sleek sans-serif typography, and high-contrast white text. Enforce this theme consistently across all sections, using glassmorphism or subtle glow effects for cards where appropriate.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-navbar-component-to-include-a-fullscreen-overlay-menu-that-opens-when-the-hamburger-icon-is-clicked-on-any-screen-size-not-just-mobile-the-fullscreen-overlay-should-cover-the-entire-viewport-with-a-dark-glassmorphism-background-matching-the-site-s-cinematic-theme-inside-the-overlay-display-large-navigation-links-services-portfolio-pricing-testimonials-and-contact-each-smooth-scrolling-to-the-respective-section-include-an-animated-close-button-x-to-dismiss-the-overlay-the-open-close-transition-should-use-smooth-animated-entrance-exit-effects-e-g-fade-in-slide-or-scale-the-existing-desktop-navigation-links-in-the-navbar-should-remain-visible-alongside-the-hamburger-icon-trigger",
+      "title": "Update the Navbar component to include a fullscreen overlay menu that opens when the hamburger icon is clicked on any screen size (not just mobile). The fullscreen overlay should cover the entire viewport with a dark/glassmorphism background matching the site's cinematic theme. Inside the overlay, display large navigation links: Services, Portfolio, Pricing, Testimonials, and Contact — each smooth-scrolling to the respective section. Include an animated close button (X) to dismiss the overlay. The open/close transition should use smooth animated entrance/exit effects (e.g. fade-in + slide or scale). The existing desktop navigation links in the navbar should remain visible alongside the hamburger icon trigger.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Hero section with animated headline and CTA",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Services section showcasing AI video agency offerings",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Portfolio/showreel section with video playback",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Pricing section with toggle/plans",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Testimonials section with client reviews",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Contact form section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Smooth scroll animations and interactive UI throughout",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Fullscreen hamburger menu overlay with navigation links (Services, Portfolio, Pricing, Testimonials, Contact) and animated open/close transitions",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "AI Video Agency",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

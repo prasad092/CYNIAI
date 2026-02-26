@@ -1,0 +1,23 @@
+{
+  "backend/main.mo": "Entry point for the Motoko backend actor that includes blob storage functionality via a MixinStorage mixin.",
+  "feature_evidence.json": "Feature evidence report mapping the fullscreen overlay navbar feature to its implementation file (Navbar.tsx) with associated components, test IDs, and high confidence rating.",
+  "frontend-file-summaries.txt": "JSON document containing one-sentence summaries of all frontend source files, serving as a reference index for the project's component and hook structure.",
+  "frontend/index.css": "Global Tailwind CSS entry point defining OKLCH-based CSS custom properties for light and dark color themes including background, foreground, chart, and sidebar tokens.",
+  "frontend/index.html": "Minimal HTML shell for the React SPA titled 'AI Video Agency' that mounts the app into a root div and loads the main TypeScript module.",
+  "frontend/src/App.tsx": "Root React component that composes all page sections (Navbar, Hero, Services, Portfolio, Pricing, Testimonials, Contact, Footer) with section IDs for smooth-scroll navigation.",
+  "frontend/src/components/Contact.tsx": "Contact section component with a validated multi-field form (name, email, company, service, message), a simulated async submission with success state, and a sidebar displaying contact info.",
+  "frontend/src/components/Footer.tsx": "Site footer with agency branding, smooth-scroll navigation links, service links, social media icon buttons, and a bottom bar with dynamic copyright year and attribution.",
+  "frontend/src/components/Hero.tsx": "Full-viewport hero section featuring an auto-rotating animated headline word, tagline, dual CTA buttons, a cinematic background image with gradient overlays, and ambient animated orbs.",
+  "frontend/src/components/Navbar.tsx": "Responsive navigation bar with smooth scroll links, a mobile hamburger menu with animated overlay, scroll-based background change, and a 'Get a Quote' CTA button.",
+  "frontend/src/components/Portfolio.tsx": "Portfolio section displaying four project cards with hover animations and a featured video placeholder, using scroll-triggered fade-in animations.",
+  "frontend/src/components/Pricing.tsx": "Pricing section with three plan cards (Starter, Pro, Enterprise), a monthly/annual billing toggle, and scroll-animated reveal; the Pro plan is visually highlighted as most popular.",
+  "frontend/src/components/Services.tsx": "Services section rendering six service cards (AI Video Production, Script Writing, etc.) in a responsive grid with scroll-triggered animations and icon-based visuals.",
+  "frontend/src/components/Testimonials.tsx": "Testimonials section displaying six client review cards with star ratings, quotes, and author info, each animated on scroll into view.",
+  "frontend/src/hooks/useActor.ts": "Custom React hook that creates and caches an Internet Computer actor (authenticated or anonymous) using React Query, and invalidates dependent queries whenever the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides a React context and hook for Internet Identity authentication on the ICP platform, managing login state, identity persistence, and AuthClient lifecycle.",
+  "frontend/src/hooks/useScrollAnimation.ts": "Custom React hook that uses IntersectionObserver to track when an element enters the viewport, returning a ref and visibility boolean for scroll-triggered animations.",
+  "frontend/src/index.css": "Global CSS file that imports fonts, configures Tailwind layers, and defines a deep cinematic dark-mode color palette using OKLCH CSS variables along with utility classes for glass cards, gradients, and animations.",
+  "frontend/src/main.tsx": "React app entry point that mounts the root component wrapped with QueryClientProvider and InternetIdentityProvider.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration extending the default theme with custom OKLCH-based color tokens, typography, container queries, animation plugins, and design system values for the project.",
+  "project_state.json": "Tracks the project's build state including version, architectural notes, known issues, and a list of implemented features for a frontend AI video agency website clone inspired by Synima."
+}

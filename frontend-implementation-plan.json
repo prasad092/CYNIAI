@@ -1,0 +1,28 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Add fullscreen hamburger menu overlay with navigation links",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "summary": "Add a fullscreen overlay menu triggered by a hamburger icon on all screen sizes, featuring large navigation links with smooth-scroll behavior, cinematic glassmorphism styling, and smooth animated open/close transitions",
+      "acceptanceCriteria": [
+        "A hamburger icon is visible and clickable on all screen sizes in the navbar",
+        "Clicking the hamburger icon opens a fullscreen overlay covering the entire viewport",
+        "The fullscreen overlay displays navigation links: Services, Portfolio, Pricing, Testimonials, and Contact",
+        "Each link in the fullscreen overlay smoothly scrolls to the corresponding section and closes the overlay",
+        "A visible close (X) button dismisses the fullscreen overlay",
+        "The overlay open/close transition includes a smooth animated effect (fade, slide, or scale)",
+        "The overlay background uses the site's dark cinematic theme (deep charcoal/glassmorphism styling)",
+        "The existing desktop navbar links remain visible when the overlay is closed"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Navbar.tsx",
+          "operation": "modify",
+          "description": "Add state management for the fullscreen overlay menu (open/close). Add a hamburger icon button that is visible on all screen sizes and toggles the overlay state. Implement a fullscreen overlay component that covers the entire viewport with a dark glassmorphism background matching the cinematic theme. Inside the overlay, render large navigation links for Services, Portfolio, Pricing, Testimonials, and Contact with smooth-scroll functionality that also closes the overlay after navigation. Add an animated close button (X) in the overlay. Implement smooth animated entrance/exit effects using CSS transitions or Framer Motion (fade-in + slide or scale). Ensure the existing desktop navigation links remain visible alongside the new hamburger icon. Preserve all existing smooth-scroll behavior and section IDs. Maintain visual consistency with the site's deep cinematic dark theme using OKLCH color tokens from the global CSS variables."
+        }
+      ]
+    }
+  ]
+}

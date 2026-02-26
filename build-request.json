@@ -1,0 +1,46 @@
+{
+  "kind": "build_request",
+  "title": "Add fullscreen hamburger menu overlay with navigation links",
+  "projectName": "FrameAI Agency",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "text": "Update the Navbar component to include a fullscreen overlay menu that opens when the hamburger icon is clicked on any screen size (not just mobile). The fullscreen overlay should cover the entire viewport with a dark/glassmorphism background matching the site's cinematic theme. Inside the overlay, display large navigation links: Services, Portfolio, Pricing, Testimonials, and Contact — each smooth-scrolling to the respective section. Include an animated close button (X) to dismiss the overlay. The open/close transition should use smooth animated entrance/exit effects (e.g. fade-in + slide or scale). The existing desktop navigation links in the navbar should remain visible alongside the hamburger icon trigger.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "i want hamburger menu in the full screen also in that hamburger i want Services Portfolio Pricing Testimonials Contact"
+        ]
+      },
+      "acceptanceCriteria": [
+        "A hamburger icon is visible and clickable on all screen sizes in the navbar",
+        "Clicking the hamburger icon opens a fullscreen overlay covering the entire viewport",
+        "The fullscreen overlay displays navigation links: Services, Portfolio, Pricing, Testimonials, and Contact",
+        "Each link in the fullscreen overlay smoothly scrolls to the corresponding section and closes the overlay",
+        "A visible close (X) button dismisses the fullscreen overlay",
+        "The overlay open/close transition includes a smooth animated effect (fade, slide, or scale)",
+        "The overlay background uses the site's dark cinematic theme (deep charcoal/glassmorphism styling)",
+        "The existing desktop navbar links remain visible when the overlay is closed"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not edit files under frontend/src/hooks/ or frontend/src/components/ui/",
+    "Preserve all existing smooth-scroll behavior and section IDs",
+    "Maintain the existing cinematic dark theme and visual design consistency"
+  ],
+  "nonGoals": [
+    "Adding new page sections or routes",
+    "Changing the desktop navbar layout beyond adding the hamburger icon trigger",
+    "Adding authentication or login to the menu",
+    "Modifying backend logic"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
