@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Play, ArrowRight } from 'lucide-react';
 
-const WORDS = ['Storytelling', 'AI Film Making', 'AI Automation', 'Cinematic Inteligence'];
+const WORDS = ['Storytelling', 'AI Film Making', 'AI Automation', 'Cinematic Inteligence', 'Web Development'];
 
 export default function Hero() {
   const [wordIndex, setWordIndex] = useState(0);
