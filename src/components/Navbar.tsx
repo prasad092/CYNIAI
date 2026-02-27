@@ -5,7 +5,7 @@ import icons from '../shared/assets/Icons';
 const navLinks = [
   { label: 'Services', href: '#services' },
   { label: 'Portfolio', href: '#portfolio' },
-  { label: 'Pricing', href: '#pricing' },
+ // { label: 'Pricing', href: '#pricing' },
   { label: 'Testimonials', href: '#testimonials' },
   { label: 'Contact', href: '#contact' },
 ];
@@ -62,28 +62,28 @@ export default function Navbar() {
     <>
       <header
         className={`fixed top-0 z-50 transition-all duration-500 ease-out ${scrolled
-            ? 'left-10 right-10 top-3 rounded-3xl bg-gradient-to-r from-white/20 via-white/20 to-white/20 border border-white/20 shadow-xl'
-            : 'left-0 right-0 bg-transparent'
+          ? 'left-10 right-10 top-3 rounded-3xl bg-gradient-to-r from-white/20 via-white/20 to-white/20 border border-white/20 shadow-xl'
+          : 'left-0 right-0 bg-transparent'
           }`}
       >
         <div className="max-w-7x mx-auto px-2 lg:px-4">
           <div className="flex items-center justify-between h-16 py-4">
             {/* Logo */}
             <button
-  onClick={() => {
-    closeMenu();
-    setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 420);
-  }}
-  className="flex items-center gap-3 group z-[60] relative"
->
-  <img
-    src={scrolled ? icons.logo4 : icons.logo1}
-    alt="CYNI AI Logo"
-    className={`object-contain transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]
+              onClick={() => {
+                closeMenu();
+                setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 420);
+              }}
+              className="flex items-center gap-3 group z-[60] relative"
+            >
+              <img
+                src={scrolled ? icons.logo4 : icons.logo1}
+                alt="CYNI AI Logo"
+                className={`object-contain transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]
       ${scrolled ? 'w-32= h-32' : 'w-15 h-15'}
     `}
-  />
-</button>
+              />
+            </button>
 
             {/* Desktop Nav */}
             {/* <nav className="hidden md:flex items-center gap-8">

@@ -6,6 +6,7 @@ import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import WhatWeDo from './components/services/Services';
 
 function App() {
   return (
@@ -15,15 +16,19 @@ function App() {
         <section id="hero">
           <Hero />
         </section>
+         <section id="WhatWeDo">
+          <WhatWeDo />
+        </section>
+        
         <section id="services">
           <Services />
         </section>
         <section id="portfolio">
           <Portfolio />
         </section>
-        <section id="pricing">
+        {/* <section id="pricing">
           <Pricing />
-        </section>
+        </section> */}
         <section id="testimonials">
           <Testimonials />
         </section>
